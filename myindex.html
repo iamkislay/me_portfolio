@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/images/images_k.png">
+
+    <title>Kislay Raj</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/my_Picture_final.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Kislay Raj</h4>
+              <span>Software Developer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">What I’m good at</a></li>
+                <li><a href="#section3">My Work</a></li>
+                <li><a href="#section4">Certifications</a></li>
+                <li><a href="#section5">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                
+                <li>
+                  <a href=mailto:"iamkislayraj@gmail.com"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/kislay-raj-6857b5238/"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/iamkislay"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="assets/images/Resume_Pro_final_confirmed.pdf" download="Resume_Kislay_Raj_DIT"><i class="fa fa-download"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>Copyright 2023 Kislay Rajn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span>
+              <h4>I am Kislay Raj <br> I am a <span id="spin" style="font-size: inherit;color:darkred" >Software Developer</span></h4>
+              </span>
+              <script>
+                function spinning(){
+                    i=Math.floor(Math.random() *4);
+                    skills=["Java Developer","Web developer","programmer","Machine Learning Enthusiast"];
+                    document.getElementById('spin').innerHTML=skills[i];
+                }
+                setInterval(spinning,2000);
+              </script>
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/front-view-stacked-books-graduation-cap-open-book-education-day_23-2149241017.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Education</h4>
+                  <p>
+                    <h5>Bachelor's degree</h5>
+                    <p style="font-style: italic;"> Computer Science and Engineering<br>DIT University , Dehradun<br>Session : 2020-24</p>
+                  </p>
+                  <div class="education" id="edu" style="display: none;">
+                  <p>
+                    <h5>Intermdiate</h5>
+                    <p style="font-style: italic;"> Science (Maths) <br>Manav Bharti National School,Gaya<br>Session : 2017-19</p>
+                  </p>
+                  <p>
+                    <h5>Matriculation</h5>
+                    <p style="font-style: italic;"> D.A.V Public School ,Gaya, Bihar<br>Session : 2020-24</p>
+                  </p>
+                </div>
+                  
+                  <div class="white-button" >
+                    <button href="#" id="hide" onclick="toggleHide()">Read More</button>
+                  </div>
+                  <script>
+                    function toggleHide(){
+                        let btn=document.getElementById('hide');
+                        let para=document.getElementById('edu');
+                        if(para.style.display!='none'){
+                            para.style.display='none';
+                        }
+                        else{
+                            para.style.display='block';
+                        }
+                    }
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>Professional Summary</h4>
+                  <p>
+                    Highly motivated and ambitious 
+                    Computer Science fresher with a passion 
+                    for technology and a strong academic 
+                    background. Possessing a solid 
+                    foundation in computer programming, 
+                    algorithms, and data structures. 
+                    As a recent graduate in Computer 
+                    Science, I have honed my abilities in 
+                    problem-solving and critical thinking, 
+                    complemented by my proficiency in 
+                    various programming languages such as 
+                    Java, Python, and C. During my academic 
+                    journey, I actively engaged in hands-on 
+                    projects, which enhanced my 
+                    communication and teamwork skills.
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/right-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What I’m good at?</h2>
+            <div class="line-dec"></div>
+            <!-- <span
+              >Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
+              Vestibulum congue leo et tellus aliquam, eu viverra nulla semper.
+              Nullam eu faucibus diam. Donec eget massa ante.</span
+            > -->
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>JAVA</h4>
+                <p>
+                    Advanced Level
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item">
+                  <div class="first-service-icon service-icon"></div>
+                  <h4>C</h4>
+                  <p>
+                  Intermediate Level
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="service-item">
+                  <div class="second-service-icon service-icon"></div>
+                  <h4>JavaScript</h4>
+                  <p>
+                  Intermediate Level
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="service-item">
+                  <div class="first-service-icon service-icon"></div>
+                  <h4>SQL</h4>
+                  <p>
+                  Intermediate Level
+                  </p>
+                </div>
+              </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>HTML5 &amp; CSS3</h4>
+                <p>
+                  Intermediate Level
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>AI and Machine Learning</h4>
+                <p>
+                  Basic Level
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Data Structure and Algorithms</h4>
+                <p>
+                  Intermediate Level
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item">
+                  <div class="first-service-icon service-icon"></div>
+                  <h4>Python</h4>
+                  <p>
+                  Basic Level
+                  </p>
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Throughout the academics , i had worked on some minor and major projects to uplift my skills to new level.</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Java"
+                    name="isotope-filter"
+                  />
+                  <span>Java</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Fornt-End"
+                    name="isotope-filter"
+                  />
+                  <span>Web Development</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Machine Learning"
+                    name="isotope-filter"
+                  />
+                  <span>Machine Learning</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="Java">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/logo_myapp.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="https://github.com/iamkislay/SIMPLE_CHAT-CHAT_WITH_YOUR_CONTACTS"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Simple Chat - Chat with your contacts</h4>
+                      <span>A multi user, multi-chat application</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Java">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/start_screen.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="https://github.com/iamkislay/Sword_Fight"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Sword Fight</h4>
+                      <span>Fight! Bleach Anime best characters</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Fornt-End">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/download_train.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/download_train.jpg"
+                        data-lightbox="image-1"
+                        data-title="project link will upload soon"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>mytrain reservation website</h4>
+                      <span>Book and spot  your train</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Machine Learning">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/movies_photo.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/movies_photo.jpg"
+                        data-lightbox="image-1"
+                        data-title="Project link will upload soon"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Indian Movie Recommender</h4>
+                      <span>Fond of old Indian Movies!!.Check out this app.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <!-- <div class="isotope-item" data-type="Fornt-End">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-05.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Fifth Awesome</h4>
+                      <span>Ut sollicitudin risus</span>
+                    </figcaption>
+                  </figure>
+                </div> -->
+
+                <!-- <div class="isotope-item" data-type="Java">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-06.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-06.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Awesome Sixth</h4>
+                      <span>Donec eget massa ante</span>
+                    </figcaption>
+                  </figure>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section certifications" data-section="section4">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Certifications</h2>
+            
+            <div class="line-dec"></div></div>
+            <!-- <span>
+                These certifications and courses helps me in shaping and sharpening my skills.
+            </span> -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                      <a href="assets/images/certificate_salesforce.png"
+                      data-lightbox="image-1"
+                      data-title="Certificate Virtual Internship SmartBridge"><h2><i class="fa fa-certificate"></i></h2>
+                      <h4>SmartBridge</h4>
+                      <p>
+                        Salesforce Developer Virtual Internship
+                      </p></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                      <a href="assets/images/certificate_JPMorgan.png"
+                      data-lightbox="image-1" data-title="Certificate JPMorgan"><h2><i class="fa fa-certificate"></i></h2>
+                      <h4>JPMorgan Chase &amp; Co</h4>
+                      <p>
+                        Software Engineering Virtual Experience
+                      </p></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                      <a href="assets/images/Certificate_Goldman.png" 
+                      data-lightbox="image-1" data-title="Certificate Goldman Sachs"><h2><i class="fa fa-certificate"></i></h2>
+                      <h4>Goldman Sachs</h4>
+                      <p>
+                        Software Engineering Virtual Experience
+                      </p></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                      <a href="assets/images/certificate_hackrank_java.png" data-lightbox="image-1" data-title="Certificate Hackerrank"><h2><i class="fa fa-certificate"></i></h2>
+                      <h4>HackerRank</h4>
+                      <p>
+                        Java(Basic)
+                      </p></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                      <a href="assets/images/certificate_intro_AI.png" data-lightbox="image-1" data-title="Certificate Intro To AI"><h2><i class="fa fa-certificate"></i></h2>
+                      <h4>Cousera</h4>
+                      <p>
+                        AI for Everyone
+                      </p></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                      <a href="assets/images/certificate_intro_front_end.png" data-lightbox="image-1" data-title="Certificate Intro to Front-End"><h2><i class="fa fa-certificate"></i></h2>
+                      <h4>Coursera</h4>
+                      <p>
+                        Intro to Front-End
+                      </p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section5">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >Interested in my skills. Contact me </span
+            >
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
